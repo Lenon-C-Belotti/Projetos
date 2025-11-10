@@ -6,7 +6,6 @@ float soma(float num1, float num2){
 	float soma1;
 	soma1 = num1 + num2;
 		printf("O valor da soma resulta em %f", soma1);
-	
 }
 
 //subtração
@@ -14,15 +13,12 @@ float sub(float nume1, float nume2){
 	float subt;
 	subt = nume1 - nume2;
 	printf("O valor da subtracao resulta em %f", subt);
-
 }
 
 //divisão
 float div(float numer1, float numer2){
 	float divi;
 	int escolha;
-	
-	
 do {
     printf("Digite em qual ordem deseja fazer a divisao:\n");
     printf("1 - Usar o primeiro numero antes.\n");
@@ -41,10 +37,8 @@ do {
 		case 2:
 			divi = numer2/numer1;
 			printf("A divisao resulta em %f ", divi);
-			break;	
-			
+			break;		
 	}
-	
 }
 
 //multiplicação
@@ -52,10 +46,7 @@ float mult(float numero1, float numero2){
 	float multi;
 	multi = numero1 * numero2;
 	printf("O valor da multiplicacao eh de %f ", multi);
-	
 }
-
-
 int main(){
 	int escolhas;
 	float nu1, nu2;
@@ -81,46 +72,16 @@ int main(){
 	
 	switch(escolhas){
 		case 1:
-			soma(nu1, nu2);
-			
+			soma(nu1, nu2);	
 			break;
 		case 2:
-			sub(nu1, nu2);
-			
+			sub(nu1, nu2);	
 			break;
 		case 3:
 			div(nu1, nu2);
-			
 			break;
 		case 4:
-			mult(nu1, nu2);	
-			
+			mult(nu1, nu2);		
 			break;		
 	}
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
